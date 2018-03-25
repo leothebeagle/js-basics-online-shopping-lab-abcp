@@ -36,9 +36,9 @@ function viewCart() {
     case 2:
       itemsAndPrices = itemsAndPrices.join(" and ")
       break;
-    default:
+      default:
       itemsAndPrices[l-1] = "and ".concat(itemsAndPrices[l-1]);
-      itemsAndPrices.join(", ");
+        itemsAndPrices = itemsAndPrices.join(", ");
   }
   console.log(`In your cart, you have ${itemsAndPrices}.`);
 }
