@@ -22,7 +22,7 @@ function viewCart() {
   if(!l) {
     return console.log("Your cart is empty.")
   }
-  
+
   let itemsAndPrices = [];
   for(let i = 0; i < l; i++) {
     let itemAndPrice = cart[i];
